@@ -1,0 +1,6 @@
+{
+    "name": "client1",
+    "dependencies": {
+        "core": "workspace:^1.0.0"
+    }
+}

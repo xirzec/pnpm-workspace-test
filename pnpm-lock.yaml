@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  packages/client1:
+    dependencies:
+      core:
+        specifier: workspace:^1.0.0
+        version: link:../core
+
+  packages/client2:
+    dependencies:
+      core:
+        specifier: workspace:^2.0.0
+        version: link:../core-v2
+
+  packages/core: {}
+
+  packages/core-v2: {}
